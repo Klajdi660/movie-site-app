@@ -34,8 +34,6 @@ export const MoviesPage: FC = () => {
     getMovies(search);
   }, [search]);
 
-  console.log(moviesResult);
-
   return (
     <div className="search-container">
       <div className="logo">

@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #EEE;
+  background: #eee;
 }
 
 .search-container {
@@ -26,7 +26,7 @@ body {
   font-size: 35px;
   font-weight: bold;
   text-decoration: none;
-  color: black
+  color: black;
 }
 
 .logo span {
@@ -45,10 +45,10 @@ body {
   overflow: hidden;
   width: 100%;
   max-width: 800px;
-  max-height: 80px; 
+  max-height: 80px;
   margin-bottom: 16px;
   margin-top: 16px;
-  transition: 0.4s; 
+  transition: 0.4s;
   background-color: #fff;
   padding: 0 20px;
   cursor: pointer;
@@ -94,9 +94,9 @@ body {
 }
 
 .results-card:hover {
-  background: #EEE;
+  background: #eee;
   transform: translateY(-10px);
-  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .results-card-image {
@@ -109,7 +109,6 @@ body {
   text-align: center;
   font-size: 15px;
   font-weight: 500;
-
 }
 
 .movie-notfound {
